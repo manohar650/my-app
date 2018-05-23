@@ -10,7 +10,7 @@ node{
    stage('Email Notification'){
       mail bcc: '', body: '''hi 
             this is vanga
-            thank you''', cc: '', from: '', replyTo: '', subject: 'pipeline setup', to: 'manoharluminous888@gmail.com'
+            thank you''', cc: '', from: '', replyTo: '', subject: 'pipeline setup', to: 'manoharvanga650@gmail.com'
    }
    stage('Slack Notification'){
        slackSend baseUrl: 'https://hooks.slack.com/services/',
